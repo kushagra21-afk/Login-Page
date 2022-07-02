@@ -51,7 +51,7 @@ app.post("/faliure", function(req,res){
 app.get("/", function(req,res){
     res.sendFile(__dirname + "/signup.html");
 })
-app.listen(process.env.port || 3000, function(){
+app.listen(process.env.PORT || 3000, function(){
     console.log("i am on")
 })
 
